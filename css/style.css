@@ -5,5 +5,12 @@ header{
 
 .color{
     background-color: #1abc9c;
+    color: white;
 }
 
+@media screen and(min-width:992px){
+    .imagine{
+        width:calc(100% / 3) ;
+    }
+    
+}
