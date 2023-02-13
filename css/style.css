@@ -50,3 +50,27 @@ a{
     border: .0625rem solid white;
     border-radius: 50%;
 }
+.stella{
+    position: relative;
+}
+.stella::before{
+    content: "";
+    display: block;
+    width: 10vw;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    border-bottom: .3125rem solid ;
+}
+
+
+.stella::after{
+    content: "";
+    display: block;
+    width: 10vw;
+    position: absolute;
+    right: 35%;
+    top: 50%;
+    
+    border-bottom: .3125rem solid;
+}
