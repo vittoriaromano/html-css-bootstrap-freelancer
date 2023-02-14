@@ -9,7 +9,6 @@ footer .color{
     background-color: #2c3e50;
 }
 
-
 .color-due{
     background-color: #1a3046;
     color: white;
@@ -19,13 +18,9 @@ footer .color{
     border-color: white;
 }
 
-
-
 label{
     display: none;
 }
-
-
 
 .bg-primary {
     background-color:  #2c3e50!important;
@@ -35,42 +30,43 @@ a{
     color: white!important;
 }
  
-
-
 .btn-primary{
     background-color: #1abc9c ;
     border: #1abc9c;
 } 
 
-.navbar-toggler-icon{
-    color: aliceblue;
-}
 
 .cerchio{
+    height: 3.4375rem;
+    width: 3.4375rem;
     border: .0625rem solid white;
     border-radius: 50%;
+    text-align: center;
+    line-height: 3.4375rem;
 }
 .stella{
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stella i{
+    margin: 0 1.25rem;
+    font-size: 1.8rem;
 }
 .stella::before{
     content: "";
     display: block;
-    width: 10vw;
-    position: absolute;
-    left: 35%;
-    top: 50%;
-    border-bottom: .3125rem solid ;
+    width: 20%;
+    border-bottom: .225rem solid;
+   
 }
 
 
 .stella::after{
     content: "";
     display: block;
-    width: 10vw;
-    position: absolute;
-    right: 35%;
-    top: 50%;
+    width: 20%;
+   
     
-    border-bottom: .3125rem solid;
+    border-bottom: .225rem solid;
 }
